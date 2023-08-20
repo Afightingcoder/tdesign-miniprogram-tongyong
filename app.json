@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/settings/settings",
     "pages/index/index",
     "pages/explore/index",
     "pages/my/index"
@@ -9,6 +10,11 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "t-cell-group": "tdesign-miniprogram/cell-group/cell-group",
+    "t-cell": "tdesign-miniprogram/cell/cell",
+    "t-icon": "tdesign-miniprogram/icon/icon"
   },
   "tabBar": {
     "custom": true,
