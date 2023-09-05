@@ -1,0 +1,41 @@
+<!--pages/settings/settings.wxml-->
+<t-navbar title="设置" class="navigation-title">
+  <view slot="capsule" >
+    <t-icon
+      size="20"
+      bind:tap="onBack"
+      aria-role="button"
+      aria-label="返回"
+      name="chevron-left"
+      class="custom-capsule"/></view>
+</t-navbar>
+
+
+<view class="divider-demo__title"></view>
+<view class="cell-wrapper" >
+  <t-cell title="通用设置" hover arrow >
+    <t-icon name="app" slot="left-icon" color="#0052d9"></t-icon></t-cell>
+  <t-cell title="通知设置" hover arrow>
+    <t-icon name="notification" slot="left-icon" color="#0052d9"></t-icon></t-cell></view>
+
+<view class="divider-demo__title"></view>
+<view class="cell-wrapper" >
+  
+  <t-cell title="深色模式"  hover arrow >
+  <t-icon name="image" slot="left-icon" color="#0052D9"></t-icon></t-cell>
+  <t-cell title="字体大小"  hover arrow> 
+  <t-icon name="chart" slot="left-icon" color="#0052D9"></t-icon></t-cell>
+  <t-cell title="播放设置" leftIcon="image" hover arrow>
+  <t-icon name="sound" slot="left-icon" color="#0052D9"></t-icon></t-cell></view>
+  
+<view class="divider-demo__title"></view>
+<view class="cell-wrapper" >
+<t-cell title="账号安全" hover arrow >
+<t-icon  name="secured" slot="left-icon" color="#0052D9"></t-icon></t-cell>
+<t-cell title="隐私" hover arrow>
+<t-icon  name="error-circle" slot="left-icon" color="#0052D9"></t-icon></t-cell></view>
+
+
+
+  
+ 
